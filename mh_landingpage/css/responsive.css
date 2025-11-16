@@ -98,7 +98,109 @@
 
     }
 }
+/* @media (max-width: 576px) {
+  .slider_item-detail h1 {
+    font-size: 32px;
+    line-height: 1.2;
+     text-align: center;
+  }
+}
+ @media (max-width: 576px) {
+  .slider_section {
+    padding-top: 20px;
+  }
+}
+@media (max-width: 576px) {
+  .navbar-brand span {
+    font-size: 16px !important;
+  }
+} */
+/* ====== MOBILE FIXES REAL ====== */
+@media (max-width: 576px) {
 
+  /* Reducir títulos gigantes */
+  .slider_item-detail h1 {
+    font-size: 28px !important;
+    line-height: 1.3;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  /* Subtítulos */
+  .slider_item-detail h4,
+  .slider_item-detail h5 {
+    font-size: 16px !important;
+    line-height: 1.4;
+    text-align: center;
+  }
+
+  /* Párrafos más compactos */
+  .slider_item-detail p,
+  .slider_item-detail strong {
+    font-size: 15px !important;
+    line-height: 1.5;
+  }
+
+  /* Logo y título en el navbar */
+  .navbar-brand img {
+    width: 45px !important;
+  }
+
+  .navbar-brand span {
+    font-size: 14px !important;
+  }
+
+  /* Imagen del slider */
+  .slider_img-box img {
+    max-width: 70% !important;
+    height: auto !important;
+    margin: 0 auto;
+    display: block;
+  }
+
+  /* Quitar max-height exagerado de imágenes */
+  .slider_img-box img[style] {
+    max-height: 280px !important;
+  }
+
+  /* Padding del slider */
+  .slider_section {
+    padding-top: 15px;
+  }
+
+  /* Botones */
+  .custom_orange-btn,
+  .custom_dark-btn {
+    font-size: 14px !important;
+    padding: 10px 16px;
+    display: block;
+    margin: 8px auto !important;
+    width: 80%;
+    text-align: center;
+  }
+
+  /* Card-deck mejorar orden */
+  .card-deck {
+    flex-direction: column !important;
+  }
+
+  /* Imágenes de cards */
+  .card-title img {
+    max-height: 250px !important;
+    width: auto !important;
+  }
+
+  /* Textos de las cards */
+  .card-body h5 {
+    font-size: 20px !important;
+    text-align: center;
+  }
+
+  .card-body p li {
+    font-size: 15px;
+  }
+
+}
 @media (max-width: 480px) {}
 
 @media (max-width: 400px) {}
